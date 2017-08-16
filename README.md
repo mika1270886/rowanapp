@@ -8,7 +8,7 @@ Things to cover:
 * PostgreSQL 9.5
 * Database created in pgAdminIII
 
-Created web application and database with Ruby/rails through PostgreSQL, uploaded csv to database, called database in R for tests, modified database files for web application through Ruby/rails, edited web application files in Notepad++, uploaded files to Github with Git Bash
+Created web application and database with Ruby/rails through PostgreSQL/pgAdmin, uploaded csv to database, called database in R for tests, modified database files for web application through Ruby/rails, edited web application files in Notepad++, uploaded files to Github with Git Bash
 
 The database for this project is "myapp_development". There are extra controllers, models, and views from my personal practice that are not used for this project. 
 
