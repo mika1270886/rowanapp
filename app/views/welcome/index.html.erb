@@ -1,4 +1,50 @@
-<h1>Welcome!</h1>
-<p>Thank you for visiting the Data Science Exercise</p>
-<p>Here you will find some basic analyses on the data you provided for widget sales<p>
-
+<h>
+		<link rel="stylesheet" type="text/css" href="C:/Sites/myapp/Images/design.css" />
+		<img src="C:/Sites/myapp/Images/homepage_butt.png" alt=""/>
+</h>
+<p>Welcome!</p>
+<p>Thank you for visiting the Data Science Exercise
+<br/>
+Here you will find some basic analyses on the data you provided for widget sales</p>
+	<body>
+		<div id="Body">	
+		<img src="C:/Sites/myapp/Images/body_bar.png" alt=""/>	
+		</div>
+		<br/>
+			<p></p>
+		I've checked your data and have compiled the following findings:
+		<p>
+		1) Red was by far the lowest-selling widget in this sale period with only 45 Red Widgets sold. 
+		<br/>There were 63 Black Widgets sold, and 128 Blue Widgets sold.
+		<p></p>2) Red had the second highest profit of $3.4mil, followed by black with $837hundred, 
+		<br/>and Blue leading again with $5.9mil in profit.
+		<p></p>3) Red had the highest value of profit-per-unit with an average of $76,333 per widget. 
+		<br/> Blue had the second highest profit-per-unit at $45,148. Finally, Black had a profit-per-unit 
+		<br/>of $13,286.
+		<p><p/>4) I checked the reliability of this data as a predictive measure for assessing color to 
+		<br/> sales relationship with a simple linear regression. I found it to be a weak predictor. The
+		<br/> Standard Error was high -- as high as 66% of the coefficient estimate. The Multiple R-Squared
+		<br/> was close to 0, meaning it does not explain the connection between color and sales. Lastly, 
+		<br/> the F-Stat was small for this data set, indicating that there is little to no relationship 
+		<br/> between color and sales. Although undesirable, this makes sense given the data has no dates 
+		<br/> attached, and therefore it is difficult to determine a trendline. 
+		<p></p> 4) As stated in point 3, the weak association between color and sales probably means  
+		<br/> that this data is not useful for checking future trends. I verified this with a cor() function
+		<br/> which, as expected, resulted in no linear relationship. Therefore, there is no trendline and 
+		<br/> and this data gives no insight on how to proceed with future sales. 
+		<p></p> 5) To visually check point 4 above, I created a scatterplot with a lowess line for Red Widgets 
+		<br/>shown below. Here we can see the distribution of sales prices for Red Widgets. The scatterplot
+		<br/> and line show no visible trend and merely validates points 3 and 4.
+		<p></p>
+		
+		<br/>
+		<img alt="" src="C:/Sites/myapp/Rowan_App/scatterplot.png" height="384" width="515" /><br />
+		<br/>
+		
+	</body>
+	
+	<body>
+		<div id="Footer">
+		<img src="C:/Sites/myapp/Images/body_bottom.png" alt=""/>
+		</div>
+	</body>
